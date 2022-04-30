@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CalcularSalario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="TpaginaStyle.css">
 
 
 </head>
@@ -16,14 +20,47 @@
         </div>
         <nav>
               <ul>
-                  <li><a href="index.html" class="btn btn-blanco">Inicio</a></li>
+                  <li><a href="index.html">Inicio</a></li>
                   <li><a href="Spagina.html">Acerca De</a></li>
                   <li><a href="#" class="btn btn-blanco">Aplicación</a></li>
               </ul>
         </nav>
 
     </header>
-    
+
+    <main>
+
+
+         
+
+      <h1>Calcular Salario</h1>
+       <p>Ingrese Salario Mensual</p>
+       
+       <button onclick="Test()">Calcular</button>
+
+       <input type="number" id="salario" >
+       <p>Salario bruto mensual</p>
+       <input type="number" id="sbm">
+       <p> Deducción INSS</p>
+       <input type="number" id="dinss">
+       <p>Salario neto (luego de deducciones)</p>
+       <input type="numer" id="sneto">
+       <p>Deducción Impuesto sobre la Renta (IR)</p>
+       <input type="number" id="direntastcond">
+       <p>Salario total con deducciones</p>
+       <input type="number" id="stcond">
+
+    </main>
+    <footer>
+        <div>
+            <img src="./imagenes/Bitmap.png" alt="">
+            <h2>AGUITO</h2>
+         </div>
+        <p>Lorem, ipsum dolor sit amet  </p>
+
+
+    </footer>
+    <script src="calculos.js"></script>
 </body>
 
 </html>

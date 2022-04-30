@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding:15px 70px;
+    background-color: white;
+    
+
+}
+header div{
+  
+    display:flex ;
+    justify-content:space-between;
+  align-items: center;
+}
+
+header nav ul{
+    
+    height: 100%;
+ display: flex;
+ align-items: center;
+ list-style:  none;
+ 
+}
+
+header nav ul a{
+    text-decoration:none ;
+
+    margin: 20px;
+}
+
+header h2{
+    color:#6E29A9;
+    width: fit-content;
+
+}
+
+
+
+.btn{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center; 
+}
+.btn-Morado{
+    background-color: #6E29A9;
+    color: white;
+
+    width: 150px;
+   height: 35px;
+   left: 620px;
+   top: 508px;
+}
+footer{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    padding: 100px;
+    width: 100%;
+    height: 189px;
+ 
+    
+    color:white;
+    background-color: #1B314F;
+ }
+ footer p{
+     
+ color: white;
+ 
+ 
+ }
+ footer h2{
+     
+     
+    
+     top: 28px;
+     left: 180px;
+     color:  #6E29A9;
+   text-decoration: overline;
+   
+ 
+}
+
+
+footer div{
+
+    display:flex ;
+    justify-content:space-between;
+  align-items: center;
+}  
+h1{
+
+    font-weight: 900;
+ font-size: 64px;
+  line-height: 75px;
+ color: #8200FF;
+}

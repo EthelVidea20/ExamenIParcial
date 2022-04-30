@@ -294,7 +294,9 @@ header nav ul a{
 
     margin: 20px;
 }
-
+header h2{
+    color:#6E29A9;
+}
 
 .btn{
     text-decoration: none;
