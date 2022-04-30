@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding:15px 70px;
+    background-color: white;
+    
+
+}
+header div{
+
+    display:flex ;
+    justify-content:space-between;
+  align-items: center;
+}
+
+header nav ul{
+    height: 100%;
+ display: flex;
+ align-items: center;
+ list-style:  none;
+ 
+}
+
+header nav ul a{
+    text-decoration:none ;
+
+    margin: 20px;
+}
+main section{
+    width: 100%;
+    
+    
+    
+}
+
+
+
+#sp1{
+
+    height: 500px;
+
+    display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  
+  padding: 100px 100px;
+  
+}
+
+#sp1 h1{
+    top: 25px;
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 20px;
+   color: #8200FF;
+   padding: 50px 100px;
+    
+}
+  #sp1 div{
+  
+  display: flex;
+ }
+  #sp1 div p{
+  
+    text-align: initial;
+ }
+  
+
+#sp1 figure img{
+    
+ width: 280px;
+ height: 200px;
+ left: 949px;
+ top: 354px;
+}
+#sp2{
+
+    height: 270px;
+
+    display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  
+  padding: 10px 100px;
+
+
+}
+#sp2 h2{
+
+    font-weight: 900;
+ font-size: 48px;
+ line-height: 100px;
+
+  color: #1B314F;
+}
+
+
+
+
+#sp3{
+
+    height: 350px;
+
+    display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  
+  padding: 1px 100px;
+
+  background-color: yellow;
+
+}
+#sp3 h3{
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #523E97;
+}
+
+
+footer{
+  
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+ 
+     padding: 100px;
+     width: 100%;
+     height: 189px;
+ 
+    
+    color:white;
+     background-color: #1B314F;
+ }
+ footer p{
+     
+    
+     
+ color: white;
+ 
+ 
+ }
+ footer h2{
+     
+     
+    
+     top: 28px;
+     left: 180px;
+     color:  #6E29A9;
+   text-decoration: overline;
+ 
+ }
+
+footer div{
+
+    display:flex ;
+    justify-content:space-between;
+  align-items: center;
+}
