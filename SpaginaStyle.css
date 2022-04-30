@@ -175,3 +175,12 @@ footer div{
     justify-content:space-between;
   align-items: center;
 }
+.btn{
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.btn-blanco{
+  background-color: #F5F5F5;
+  color: #6E29A9;
+}
